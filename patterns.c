@@ -6,7 +6,7 @@ int choice=get_int("Enter type of pattern (1 or 2) ");
 int r=get_int("Number of rows");
 if(choice==1)
 {
-  for(int i==r;i>0;i--)
+  for(int i=r;i>0;i--)
   { 
     for(int j=0;j<i;j++)
     {
@@ -15,11 +15,11 @@ if(choice==1)
     printf("\n");
   }
 }
-  else if(choice==2)
+else if(choice==2)
   { 
     for(int i=r;i>0;i--)
     {
-      for(int j=0;j<r:j++)
+      for(int j=0;j<r;j++)
       {
         if(j>=i-1)
         {
