@@ -25,7 +25,7 @@ int main(void)
     if(a*a+b*b==c*c)
       printf("Yes");
     else
-      printf("No")
+      printf("No");
     }
 };
   
