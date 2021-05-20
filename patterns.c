@@ -3,7 +3,7 @@
 int main(void)
 {
   int choice=get_int("Enter type of pattern (1 or 2) ");
-  int r=get_int("Number of rows");
+  int r=get_int("Number of rows ");
   if(choice==1)
   {
     for(int i=r;i>0;i--)
