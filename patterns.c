@@ -19,7 +19,7 @@ int main(void)
   {
     for(int i=r;i>0;i--)
     {
-      forr(int j=0;j<r;j++)
+      for(int j=0;j<r;j++)
       {
         if(j>=i-1)
         {
