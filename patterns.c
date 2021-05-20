@@ -1,25 +1,25 @@
-#inlude<stdio.h>
+#include<stdio.h>
 #include<cs50.h>
 int main(void)
 {
-int choice=get_int("Enter type of pattern (1 or 2) ");
-int r=get_int("Number of rows");
-if(choice==1)
-{
-  for(int i=r;i>0;i--)
-  { 
-    for(int j=0;j<i;j++)
-    {
-      printf("#");
-    }
-    printf("\n");
-  }
-}
-else if(choice==2)
-  { 
+  int choice=get_int("Enter type of pattern (1 or 2) ");
+  int r=get_int("Number of rows ");
+  if(choice==1)
+  {
     for(int i=r;i>0;i--)
     {
-      for(int j=0;j<r;j++)
+      for(int j=0;j<i;j++)
+      {
+        printf("#");
+      }
+      printf("\n"):
+    }
+  }
+  else if(choice==2)
+  {
+    for(int i=r;i>0;i--)
+    {
+      forr(int j=0;j<r;j++)
       {
         if(j>=i-1)
         {
@@ -32,6 +32,5 @@ else if(choice==2)
     }
   }
   else
-    printf("error");
-};
-          
+    printf("error")
+  }     
